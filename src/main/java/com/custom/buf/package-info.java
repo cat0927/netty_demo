@@ -1,7 +1,6 @@
 /**
  * DATE 2020-05-08
  *
- * @author wangcun
  */
 package com.custom.buf;
 

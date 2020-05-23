@@ -46,7 +46,7 @@ public class Server {
                 // 自定义长度的解码器，每次发送一个long 类型的长度数据
                 ch.pipeline().addLast(new FixedLengthFrameDecoder(Long.BYTES));
 
-                // 使用 EventLoopGroup 专门处理耗时的 handler。
+                // 使用 EventLoopGroup 专门处理耗时的 handl  r。
                 //ch.pipeline().addLast(businessGroup, ServerHandler.INSTANCE);
 
                 // 单线程处理
